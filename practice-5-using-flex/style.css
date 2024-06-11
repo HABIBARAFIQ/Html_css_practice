@@ -1,0 +1,89 @@
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+  font-family: "Roboto", sans-serif;
+}
+.headline-container {
+  position: relative;
+}
+h1 {
+  font-size: 80px;
+  color: tomato;
+  margin-bottom: 40px;
+  z-index: 2;
+  position: relative;
+}
+.behind-headline {
+  color: white;
+  position: absolute;
+  top: 0;
+  left: 208px;
+  z-index: 1;
+}
+.main__navbar {
+  display: flex;
+  flex-direction: column;
+  align-items: flex-start;
+  border-radius: 20px;
+  width: 1200px;
+  height: 300px;
+  margin-top: 30px;
+  margin-left: 150px;
+  margin-right: 50px;
+  display: flex;
+  align-items: center;
+  background-image: url("/practice-5-using-flex/Images/Web background Image.jpeg");
+}
+.child__navbar {
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  background-color: black;
+  width: 1200px;
+  height: 170px;
+  border-radius: 20px;
+}
+.image img {
+  width: 100px;
+  height: 100px;
+  border-radius: 50%;
+  margin-left: 20px;
+  border-style: none;
+}
+.pic_des {
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+}
+.description {
+  margin-left: 20px;
+}
+.child__headline {
+  color: white;
+  font-size: 30px;
+  margin-bottom: 10px;
+}
+p {
+  color: white;
+  font-size: 20px;
+}
+a {
+  text-decoration: none;
+  color: rgb(181, 180, 180);
+}
+button {
+  color: rgb(0, 0, 0);
+  background-color: rgb(255, 97, 69);
+  border-radius: 40px;
+  padding: 10px 40px;
+  font-weight: 800;
+  font-size: 20px;
+  margin-right: 20px;
+  border-style: none;
+  cursor: pointer;
+}
+button:hover {
+  background-color: rgb(254, 135, 114);
+  font-size: 21px;
+}
